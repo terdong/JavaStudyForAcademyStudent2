@@ -10,7 +10,6 @@ public class VariableStudy {
         // 변수를 println을 통해 출력 할 수 있다.
         System.out.println(number);
 
-
         // int 타입의 number1 변수를 "선언한다" 라고 한다.
         int number1;
         // number1 변수에 9 값을 "정의한다" 혹은 "대입한다" 라고 한다.
