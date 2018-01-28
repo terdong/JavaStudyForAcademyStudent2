@@ -15,5 +15,8 @@ public class CharDataTypeStudy {
         c = 97;
         System.out.println("c = " + c);
 
+        c='+';
+        c='-';
+
     }
 }
