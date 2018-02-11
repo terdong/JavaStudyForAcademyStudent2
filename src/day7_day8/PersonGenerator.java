@@ -1,4 +1,4 @@
-package day7;
+package day7_day8;
 
 public class PersonGenerator {
     public static void main(String[] args) {

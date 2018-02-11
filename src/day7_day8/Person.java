@@ -1,4 +1,4 @@
-package day7;
+package day7_day8;
 
 public class Person {
     // 멤버 변수를 선언해준다.
