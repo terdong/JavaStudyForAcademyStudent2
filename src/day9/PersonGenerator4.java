@@ -6,6 +6,8 @@ public class PersonGenerator4 {
         PersonManager personManager = new PersonManager();
 
         personManager.initialize();
+        /*personManager.persons = new Person[99];
+        personManager.index = 0;*/
 
         Person person = new Person();
         person.name="동희";
@@ -14,6 +16,5 @@ public class PersonGenerator4 {
         personManager.addPerson(person);
 
         personManager.printPersons();
-
     }
 }
