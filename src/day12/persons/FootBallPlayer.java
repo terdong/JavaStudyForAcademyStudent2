@@ -1,19 +1,13 @@
-package day11;
+package day12.persons;
 
-public class FootBallPlayer extends Person  {
+public class FootBallPlayer extends Worker {
 
     public String teamName;
-    public long salary;
 
     public FootBallPlayer(String name, String sex, int age, int height, int weight , String teamName, long salary){
-        super(name, sex, age, height, weight);
+        super(name, sex, age, height, weight, salary);
 
         this.teamName = teamName;
-        this.salary = salary;
-    }
-
-    public void getPay(long salary){
-        this.salary = salary;
     }
 
     public void playFootball(){

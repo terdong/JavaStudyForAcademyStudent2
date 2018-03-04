@@ -1,19 +1,14 @@
-package day11;
+package day12.persons;
 
-public class Programmer extends Person{
+public class Programmer extends Worker {
 
-    public long salary;
     public String goodProgramLanguage;
 
     public Programmer(String name, String sex, int age, int height, int weight , String goodProgramLanguage, long salary){
 
-        super(name, sex, age, height, weight);
+        super(name, sex, age, height, weight, salary);
         this.goodProgramLanguage = goodProgramLanguage;
-        this.salary = salary;
-    }
 
-    public void getPay(long salary){
-        this.salary = salary;
     }
 
     public void developProgram(){
